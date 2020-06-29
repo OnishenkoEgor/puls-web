@@ -1,0 +1,50 @@
+.menu {
+    font-family: 'Museo';
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__logo {
+    flex:0 1 33.3%;
+    //display: block;
+    //max-width: 251px;
+    height: 45px;
+    >img{
+        max-width: 251px
+    }
+}
+.menu__text {
+    flex:0 1 33.3%;
+   text-align: center;
+}
+.menu__title {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.menu__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+}
+.menu__call {
+    flex:0 1 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.menu__number {
+    color: #fff;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.menu__btn {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
