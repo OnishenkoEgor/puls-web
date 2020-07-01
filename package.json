@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,16 +13,17 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
   },
   "dependencies": {
     "gulp": "^4.0.2"
-  }, "browserslist": [
+  },
+  "browserslist": [
     "defaults",
     "not IE 11",
     "not IE_Mob 11",
     "maintained node versions"
   ]
-
 }

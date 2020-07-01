@@ -1,5 +1,18 @@
 @import 'base/null.scss';
 @import 'base/fonts.scss';
 
-@import 'main-page.scss';
+body{
+    font-family: 'Museo';
+}
+.container{
+    display: block;
+    max-width: 790px;
+    margin: 0 auto;
+}
+@import 'blocks/button.scss';
+@import 'blocks/titles';
+@import 'blocks/_menu.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
 @import 'base/media.scss';

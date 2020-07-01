@@ -80,12 +80,16 @@
     <div class="consultation">
         <div class="container">
             <div class="consultation__content">
-                <div class="consultation___title title">Получите бесплатную консультацию <br/> по подбору пульсометра </div>
+                <div class=" title consultation__title ">Получите бесплатную консультацию <br/> по подбору пульсометра </div>
                 <div class="consultation__descr">Просто заполните форму заявки<br/> и мы перезвоним вам в течении 10 минут</div>
-                <input placeholder="Ваше имя" type="text">
-                <input placeholder="Ваш телефон" type="text">
-                <input placeholder="Ваш E-mail" type="text">
-                <div class="consultation__btn btn"></div>
+                <form action="#">
+                    <input required name="name" placeholder="Ваше имя" type="text">
+                    <input required name="phone" placeholder="Ваш телефон" type="number">
+                    <input required name="email" placeholder="Ваш E-mail" type="email">
+                    <textarea name="" style="resize: none; border:3px dashed red;"></textarea>
+                    <button>zakazat colns</button>
+                    <input type="reset">
+                </form>
             </div>
         </div>
     </div>
