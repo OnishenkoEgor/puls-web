@@ -1,0 +1,22 @@
+.feed-form{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Museo';
+    font-weight: 300;
+    &__imput{
+        height: 50px;
+        padding: 20px;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        
+        &:last-of-type{
+            margin-bottom: 20px;
+        }
+    }
+    &__btn{
+        height: 55px;
+        font-size: 16px;
+        line-height: 55px;
+    }
+}
