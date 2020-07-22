@@ -1,12 +1,14 @@
+@import 'libs/animate';
 @import 'base/null.scss';
 @import 'base/fonts.scss';
+
 
 body{
     font-family: 'Museo';
 }
 .container{
     display: block;
-    max-width: 790px;
+    max-width: 960px;
     margin: 0 auto;
 }
 @import 'blocks/button.scss';
@@ -16,4 +18,10 @@ body{
 @import 'blocks/promo.scss';
 @import 'blocks/advantages';
 @import 'blocks/consultation';
+@import 'blocks/_carousel.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/modal';
 @import 'base/media.scss';
+@import 'blocks/pageup';

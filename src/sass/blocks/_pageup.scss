@@ -1,0 +1,16 @@
+.pageup{
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-weight: 900;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color:rgb(199, 1, 1);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;    
+    z-index: 10;
+}
